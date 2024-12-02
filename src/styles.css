@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+#navbar {
+  border-bottom: 1px solid lightgray;
+}
+#content .card {
+  border: none;
+}
+#content .card-body {
+  border: 1px solid lightgray;
+  border-radius: 6px;
+}
+#footer {
+  border-top: 1px solid lightgray;
+  background-color: #f8f9fa;
+}
+

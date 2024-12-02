@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+  test_click_star:
+    container_name: test_click_star
+    hostname: localhost
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '4200:4200'
